@@ -1,0 +1,97 @@
+body {
+font-family: 'Inria Sans', sans-serif;
+color: #698C66;
+margin: auto;
+height: 100vh;
+display: flex;
+flex-direction: column;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#company_logo{
+    height: 20px; 
+}
+#landing_logo_header{
+    padding: 0.5em;    
+}
+.landing_box{
+    flex: 1; /*fills up the remaining part of the body*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#landing_box_1{
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+}
+#landing_box_2{
+    font-weight: bold;
+    font-size: 5em;
+}
+#landing_box_3{
+    font-size: 1.3em;
+    color: black;
+
+}
+#landing_box_4{
+    margin-top: 1em;
+    font-size: 1em;
+    
+}
+#landing_box_4 a{
+   text-decoration: none;
+   color: #698C66; 
+}
+
+.sign_in_form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sign_elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22em; 
+}
+#login_email, #login_password {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: none;
+    background-color: whitesmoke;
+}
+#btn_login{
+    padding: 1em;
+    border: none;
+    color: white;
+    background-color: #90A88E;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#btn_login:hover{
+    background-color: #698C66;
+
+}
+#already_have{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+#already_have a{
+    text-decoration: none;
+    color: #90A88E;
+}
