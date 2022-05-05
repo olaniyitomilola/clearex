@@ -6,13 +6,14 @@
     </div>
     <form class="sign_in_form" method="post" action=" <?php echo $_SERVER['PHP_SELF']?>">
         <div class = "sign_elements">
+            <div id = sign_header>welcome, login to your account</div>
             <label for="email">Email:</label>
             <input type="email" name="email" id="login_email">
             <label for="login_password">Password:</label>
             <input type="password" name="login_password" id="login_password">
             <input type="button" value="login" id = "btn_login">
             <div id = "already_have">
-                <a href="signup.php">Already have an account?</a>   
+                <a href="signup.php">New user? Sign up</a>   
                 <a id="forgot_password" href="#">Forgot password?</a>   
             </div>
         </div> 

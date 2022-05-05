@@ -17,7 +17,7 @@ flex-direction: column;
 #company_logo{
     height: 20px; 
 }
-#landing_logo_header{
+#nav_header{
     padding: 0.5em;    
 }
 .landing_box{
@@ -51,6 +51,13 @@ flex-direction: column;
    text-decoration: none;
    color: #698C66; 
 }
+#sign_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
 
 .sign_in_form{
     flex: 1;
@@ -65,6 +72,9 @@ flex-direction: column;
     flex-direction: column;
     justify-content: center;
     width: 22em; 
+}
+.sign_elements label{
+    font-size: small;
 }
 #login_email, #login_password {
     margin-bottom: 1em;
@@ -93,5 +103,115 @@ flex-direction: column;
 }
 #already_have a{
     text-decoration: none;
+    color: #698C66;
+    font-size: small;
+}
+#forgot_password{
     color: #90A88E;
+    font-weight: 300;
+}
+input {
+    outline-color: #698C66;
+}
+
+/*Dashoard here*/
+#nav_editor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #698C66;
+    padding: 0.5em;
+}
+#nav_editor a{
+    text-decoration: none;
+    color: #90A88E;
+}
+#left_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#left_nav div{
+    margin-left: 2em;
+}
+#right_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#user_prof_pics, #username_and_acctval {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+#user_prof_pics img{
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+}
+#user_deets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 1em;
+
+}
+#notifications img{
+    height: 1em;
+    cursor: pointer;
+}
+#dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.dashboard_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4em;
+}
+#dash_header{
+    font-size: larger;
+    margin-bottom: 0.5em;
+}
+#user_dash{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 60vw;
+    padding: 1em;
+    font-size: small;
+}
+#dash_user_acctval, #dash_user_valtraded{
+    width: 30em;
+    height: 10em;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 2px 0px #00000040;
+    display: flex;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+#user_dash_head{
+    font-size: large;
+    font-weight: 400;
+}
+#user_dash_val{
+    font-size:x-large;
+    font-weight: 700;
 }
