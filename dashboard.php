@@ -8,7 +8,7 @@
             <div><a href="#">Sell</a></div>
         </div>
         <div id = "right_nav">
-            <div><a href="#">Assets</a></div>
+            <div><a href="#">Portfolio</a></div>
             <div id="user_deets">
                 <div id="username_and_acctval">
                     <div id = "dash_username">Username</div>
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div id="notifications">
-                <img src="includes/resources/img/notification.png" alt="notifications" id= "notification_pics">
+                <img src="includes/resources/img/notification.svg" alt="notifications" id= "notification_pics">
             </div>
 
         </div>

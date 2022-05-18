@@ -122,6 +122,8 @@ input {
     align-items: flex-end;
     border-bottom: 1px solid #698C66;
     padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 #nav_editor a{
     text-decoration: none;
@@ -147,6 +149,9 @@ input {
     align-items: center;
     justify-content: center;
     font-size: small;
+}
+#username_and_acctval{
+    margin-right: 0.7em;
 }
 #user_prof_pics img{
     border-radius: 50%;
@@ -189,8 +194,8 @@ input {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 70vw;
     padding: 1em;
     font-size: small;
 }
@@ -214,4 +219,17 @@ input {
 #user_dash_val{
     font-size:x-large;
     font-weight: 700;
+}
+#assets{
+    margin-top: 2em;
+}
+#asset_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 70vw;
+    padding: 1em;
+    font-size: small;
 }
